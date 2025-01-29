@@ -37,7 +37,6 @@ public class BinaryVsLinear {
 		Scanner sc = new Scanner(System.in);
 		int[] largeArray = new int[1000000];
 		
-		
 		for (int i = 0; i < largeArray.length; i++) {
 			largeArray[i] = i;
 		}
@@ -46,7 +45,6 @@ public class BinaryVsLinear {
 		int resultado = 0;
 		int numTests = 10; 
 		
-
 		long totalBinaryTime = 0;
 		for (int i = 0; i < numTests; i++) {
 			long startTime = System.nanoTime(); 
@@ -56,7 +54,6 @@ public class BinaryVsLinear {
 		}
 		System.out.println("tempo medio de exec. binary_search:" + totalBinaryTime / numTests + " nanosegundos");
 		
-
 		long totalLinearTime = 0;
 		for (int i = 0; i < numTests; i++) {
 			long startTime2 = System.nanoTime(); 
