@@ -24,7 +24,6 @@ public class BinarySearch {
 	
 	public static void main(String[] args) {
 		
-		
 		Scanner sc = new Scanner(System.in);
 		int[] largeArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 		int item = 0;
@@ -35,8 +34,6 @@ public class BinarySearch {
 		
 		resultado = binary_search(largeArray, item);
 		System.out.println("item encontrado no indice [" + resultado + "] do array");
-			
-		
-		
+					
 	}
 }
