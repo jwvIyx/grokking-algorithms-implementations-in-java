@@ -5,6 +5,3 @@ This repository contains implementations of algorithms from the book "Grokking A
 [Binary Search](https://github.com/jwvIyx/grokking-algorithms-implementations-in-java/blob/main/binarysearch/BinarySearch.java) - Implementation of the binary search algorithm, one of the most efficient ways to search in a sorted array.
 [Linear vs Binary Search](https://github.com/jwvIyx/grokking-algorithms-implementations-in-java/blob/main/binarysearch/BinaryVsLinear.java) - This comparison measures the execution time of binary search and linear search on a sorted array (while both algorithms work on sorted data, binary search is much faster for large datasets)
 
-## Notes
-[Binary Search](https://github.com/jwvIyx/grokking-algorithms-implementations-in-java/blob/main/binarysearch/binary_search.md)
-
